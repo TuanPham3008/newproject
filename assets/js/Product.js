@@ -37,7 +37,7 @@ function prev() {
 
 const eleProDetai = document.getElementById('product-details');
     const htmls =  `
-    <div class="product-details__wrap onclick = "window.location.href = "../index.html";">
+    <div class="product-details__wrap">
         <div class="product-details__wrap-1">
             <div class="product-details__left">
                 <div class="product-details__large">
