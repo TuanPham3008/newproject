@@ -171,7 +171,7 @@ function render( e,arr){
     const htmls = arr.map((item, index) => {
         return `
         <div class="wrap-product col"  onclick="localStorage.setItem('id', ${index});">
-            <a href = '../iframe/product.html' class="product-item">
+            <a href = './iframe/product.html' class="product-item">
                 <img class="product-item__img"
                     src=${item.img}
                     alt="Điện thoại iphone">
